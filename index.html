@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Maestro</title>
+
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Background -->
+    <background>
+      <div class="background-container">
+        <!-- Logo and Tagline -->
+        <h1 class="homepage-logo"><a href="index.html">Market Maestro</a></h1>
+        <h2 class="tagline">fast real-time investment information</h2>
+
+        <!-- Stock Column -->
+        <div
+          class="column1"
+          style="background-image: url('./assets/images/stock-tile.jpg')"
+        >
+          <button
+            class="stock-button"
+            onclick="window.location.href='stock.html';"
+          >
+            Stock Ticker
+          </button>
+        </div>
+
+        <!-- Crypto Column -->
+        <div
+          class="column2"
+          style="background-image: url('./assets/images/crypto-tile.jpg')"
+        >
+          <button
+            class="crypto-button"
+            onclick="window.location.href='crypto.html';"
+          >
+            Crypto Ticker
+          </button>
+        </div>
+      </div>
+    </background>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h5 class="index-h5">&copy; 2022 Market Maestro</h5>
+    </div>
+  </body>
+</html>
